@@ -1,3 +1,6 @@
+Original App Design Project - README Template
+===
+
 # ToMeet
 
 ## Table of Contents
@@ -28,8 +31,9 @@ An app that allows users to connect and network with other professionals based o
 * Users can create an account
 * Users can log in and log out
 * Users can message
-* Users can filter
 * Users can search
+* Users can filter
+* Users can edit information
 
 **Optional Nice-to-have Stories**
 
@@ -45,6 +49,7 @@ An app that allows users to connect and network with other professionals based o
 
 * Message Box Screen (Home Screen)
    * Users can see most recent contacts you have messaged
+   * Users can delete conversations
 
 * Messaging Screen
    * Users can message each other
@@ -75,7 +80,7 @@ An app that allows users to connect and network with other professionals based o
 * Setting Screen
    * Users can view settings
 
-* Setting Edit Screen?
+* Setting Edit Screen
    * Users can edit settings
  
 ### 3. Navigation
@@ -106,12 +111,12 @@ An app that allows users to connect and network with other professionals based o
  * Messaging Screen
    * Messaging Screen -> Message Box
    * Messaging Screen -> Message Request
-   * Messaging Screen -> Profile 
 
 * Message Request Screen
    * Message Request -> Message Box
    * Message Request -> Messaging Screen
    * Message Request -> Search 
+   * Message Request -> Profile
    * Message Request -> Account
 
 * Search Screen
@@ -132,7 +137,7 @@ An app that allows users to connect and network with other professionals based o
    * Result -> Account
 
 * Profile Screen 
-   * Profile -> Messaging Screen
+   * Profile -> Message Request
    * Profile -> Result
    
 * Account Screen
@@ -160,10 +165,81 @@ An app that allows users to connect and network with other professionals based o
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+* Users
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| userID | String | unique ID for the user account |
+| email | String | user's email |
+| username | String | user's username |
+| password | String | user's password |
+| firstName | String | user's first name |
+| lastName | String | user's last name |
+| profilePic | File | image user use as profile picture |
+| company | String | company user works at |
+| position | Stirng | position user works as |
+| education | String | institution user is attending or attended |
+| location | String | city user resides or works in |
+
+* Conversation
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| convoID | String | unique ID for the conversation |
+| personI | Pointer to User | userID of current user |
+| personU | Pointer to User | userID of conversation partner |
+| status | Boolean | if personI and personU is connected |
+| messages | Array | list of messages |
+
+* Messages
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| messageID | String | unique ID message |
+| sender | Pointer to User | sender's ID |
+| reciever | Pointer to User | reciever's ID |
+| message | String | message body |
+| timestamp | DateTime | date and time of when message was sent |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+* Login Screen
+   * (Read/GET) Fetch information from Parse
+
+* Create Account Screen
+   * (Creat/POST) Create a new user object
+
+* Message Box Screen
+   * (Read/GET) Query recent conversations
+   * (Delete) Delete existing conversation
+
+* Messaging Screen
+   * (Read/GET) Query recent messages
+   * (Create/POST) Create new message
+   * (Update/PUT) Update user conversation 
+
+* Message Request Screen
+   * (Read/GET) Query recent message requests
+   * (Update/PUT) Update user conversation status
+   * (Delete) Delete message request
+
+* Result Screen
+   * (Read/GET) Query usrer based on search
+   
+* Profile Screen
+   * (Read/GET) Query user object
+
+* Account Screen
+   * (Read/GET) Query logged in user object
+
+* Account Edit Screen
+   * (Update/PUT) Update user profile 
+
+* Setting Screen
+   * (Read/GET) Query logged in user settings
+
+* Setting Edit Screen
+   * (Update/PUT) Update settings
