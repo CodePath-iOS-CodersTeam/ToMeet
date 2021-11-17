@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55120A9F4D0645338C0517CD /* Pods_ToMeet_ToMeetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC79D09A2C8F1470AE7778 /* Pods_ToMeet_ToMeetUITests.framework */; };
 		695AB7CA274404FC00614091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7C9274404FC00614091 /* AppDelegate.swift */; };
 		695AB7CC274404FC00614091 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7CB274404FC00614091 /* SceneDelegate.swift */; };
 		695AB7CE274404FC00614091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7CD274404FC00614091 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		695AB7D62744050100614091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695AB7D42744050100614091 /* LaunchScreen.storyboard */; };
 		695AB7E12744050200614091 /* ToMeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7E02744050200614091 /* ToMeetTests.swift */; };
 		695AB7EC2744050200614091 /* ToMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7EB2744050200614091 /* ToMeetUITests.swift */; };
+		A1C7363D4D71F9E07FD54A8C /* Pods_ToMeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9231873980FB34DE0CF2AA34 /* Pods_ToMeetTests.framework */; };
+		D9BBCFA63B8A414FD7C91753 /* Pods_ToMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC279F3E60D52541DFC80EB /* Pods_ToMeet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A519D74C478619BC2530606 /* Pods-ToMeetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToMeetTests.debug.xcconfig"; path = "Target Support Files/Pods-ToMeetTests/Pods-ToMeetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		482ABCE1A7B9D86BDB1E0070 /* Pods-ToMeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToMeet.release.xcconfig"; path = "Target Support Files/Pods-ToMeet/Pods-ToMeet.release.xcconfig"; sourceTree = "<group>"; };
+		4EC279F3E60D52541DFC80EB /* Pods_ToMeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToMeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFEE5938CECB07436124507 /* Pods-ToMeet-ToMeetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToMeet-ToMeetUITests.release.xcconfig"; path = "Target Support Files/Pods-ToMeet-ToMeetUITests/Pods-ToMeet-ToMeetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E523CB0794B06076C9FF2C9 /* Pods-ToMeetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToMeetTests.release.xcconfig"; path = "Target Support Files/Pods-ToMeetTests/Pods-ToMeetTests.release.xcconfig"; sourceTree = "<group>"; };
 		695AB7C6274404FC00614091 /* ToMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695AB7C9274404FC00614091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		695AB7CB274404FC00614091 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		695AB7E72744050200614091 /* ToMeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToMeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		695AB7EB2744050200614091 /* ToMeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToMeetUITests.swift; sourceTree = "<group>"; };
 		695AB7ED2744050200614091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820363BEFE761EC330C2709A /* Pods-ToMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToMeet.debug.xcconfig"; path = "Target Support Files/Pods-ToMeet/Pods-ToMeet.debug.xcconfig"; sourceTree = "<group>"; };
+		9231873980FB34DE0CF2AA34 /* Pods_ToMeetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToMeetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBC79D09A2C8F1470AE7778 /* Pods_ToMeet_ToMeetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToMeet_ToMeetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C46CCC58FBCAC6274225EE /* Pods-ToMeet-ToMeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToMeet-ToMeetUITests.debug.xcconfig"; path = "Target Support Files/Pods-ToMeet-ToMeetUITests/Pods-ToMeet-ToMeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BBCFA63B8A414FD7C91753 /* Pods_ToMeet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C7363D4D71F9E07FD54A8C /* Pods_ToMeetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55120A9F4D0645338C0517CD /* Pods_ToMeet_ToMeetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0759CB6B2C5766D2B142C0C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				820363BEFE761EC330C2709A /* Pods-ToMeet.debug.xcconfig */,
+				482ABCE1A7B9D86BDB1E0070 /* Pods-ToMeet.release.xcconfig */,
+				E1C46CCC58FBCAC6274225EE /* Pods-ToMeet-ToMeetUITests.debug.xcconfig */,
+				4EFEE5938CECB07436124507 /* Pods-ToMeet-ToMeetUITests.release.xcconfig */,
+				0A519D74C478619BC2530606 /* Pods-ToMeetTests.debug.xcconfig */,
+				5E523CB0794B06076C9FF2C9 /* Pods-ToMeetTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		695AB7BD274404FC00614091 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				695AB7DF2744050200614091 /* ToMeetTests */,
 				695AB7EA2744050200614091 /* ToMeetUITests */,
 				695AB7C7274404FC00614091 /* Products */,
+				0759CB6B2C5766D2B142C0C9 /* Pods */,
+				BD991CF10378CCC6F14EC8F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = ToMeetUITests;
 			sourceTree = "<group>";
 		};
+		BD991CF10378CCC6F14EC8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EC279F3E60D52541DFC80EB /* Pods_ToMeet.framework */,
+				BFBC79D09A2C8F1470AE7778 /* Pods_ToMeet_ToMeetUITests.framework */,
+				9231873980FB34DE0CF2AA34 /* Pods_ToMeetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 695AB7F02744050200614091 /* Build configuration list for PBXNativeTarget "ToMeet" */;
 			buildPhases = (
+				D083930F4A3EBA0F4977EE87 /* [CP] Check Pods Manifest.lock */,
 				695AB7C2274404FC00614091 /* Sources */,
 				695AB7C3274404FC00614091 /* Frameworks */,
 				695AB7C4274404FC00614091 /* Resources */,
+				0672BAAE54CA06B983A56138 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 695AB7F32744050200614091 /* Build configuration list for PBXNativeTarget "ToMeetTests" */;
 			buildPhases = (
+				6A9A17933974E066665B6C8C /* [CP] Check Pods Manifest.lock */,
 				695AB7D82744050200614091 /* Sources */,
 				695AB7D92744050200614091 /* Frameworks */,
 				695AB7DA2744050200614091 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 695AB7F62744050200614091 /* Build configuration list for PBXNativeTarget "ToMeetUITests" */;
 			buildPhases = (
+				5E3EAB744A85222076FEE8E9 /* [CP] Check Pods Manifest.lock */,
 				695AB7E32744050200614091 /* Sources */,
 				695AB7E42744050200614091 /* Frameworks */,
 				695AB7E52744050200614091 /* Resources */,
+				415EBE745B8C8C6C419C3CBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0672BAAE54CA06B983A56138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToMeet/Pods-ToMeet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToMeet/Pods-ToMeet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToMeet/Pods-ToMeet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415EBE745B8C8C6C419C3CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToMeet-ToMeetUITests/Pods-ToMeet-ToMeetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToMeet-ToMeetUITests/Pods-ToMeet-ToMeetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToMeet-ToMeetUITests/Pods-ToMeet-ToMeetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E3EAB744A85222076FEE8E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToMeet-ToMeetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9A17933974E066665B6C8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToMeetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D083930F4A3EBA0F4977EE87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToMeet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		695AB7C2274404FC00614091 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		695AB7F12744050200614091 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820363BEFE761EC330C2709A /* Pods-ToMeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +601,7 @@
 		};
 		695AB7F22744050200614091 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482ABCE1A7B9D86BDB1E0070 /* Pods-ToMeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +620,7 @@
 		};
 		695AB7F42744050200614091 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A519D74C478619BC2530606 /* Pods-ToMeetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		695AB7F52744050200614091 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E523CB0794B06076C9FF2C9 /* Pods-ToMeetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +664,7 @@
 		};
 		695AB7F72744050200614091 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C46CCC58FBCAC6274225EE /* Pods-ToMeet-ToMeetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		695AB7F82744050200614091 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFEE5938CECB07436124507 /* Pods-ToMeet-ToMeetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
