@@ -27,10 +27,10 @@ An app that allows users to connect and network with other professionals based o
 
 * [x] Users can create an account
 * [x] Users can log in and log out
-* [] Users can message
-* [] Users can search
-* [] Users can filter
-* [] Users can edit information
+* [ ] Users can message
+* [ ] Users can search
+* [ ] Users can filter
+* [ ] Users can edit information
 
 **Optional Nice-to-have Stories**
 
@@ -155,7 +155,7 @@ An app that allows users to connect and network with other professionals based o
 
 
 ## Wireframes
-<img src="https://i.imgur.com/bY93s89.jpg" width=600>
+<img src="https://user-images.githubusercontent.com/58193323/142771190-258f6808-d904-4dcf-ba5b-432950cf302e.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -240,3 +240,59 @@ An app that allows users to connect and network with other professionals based o
 
 * Setting Edit Screen
    * (Update/PUT) Update settings
+
+## Milestone 1
+
+### User Stories
+
+* [x] Configure Parse Server
+* [x] Create an Account
+* [x] Log In & Log Out
+
+### Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/6mJ2Ldssi1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Milestone 2
+
+### User Stories
+
+* [ ] Message Box
+* [ ] Messaging
+* [ ] Message Request
+
+### Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Milestone 3
+
+### User Stories
+
+* [ ] Profile
+* [ ] Accept, Reject, & Request Feature
+* [ ] Search Feature
+
+### Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Milestone 4
+
+### User Stories
+
+* [ ] Filter Feature
+* [ ] Account Edit
+* [ ] Seeting Edit
+
+### Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
