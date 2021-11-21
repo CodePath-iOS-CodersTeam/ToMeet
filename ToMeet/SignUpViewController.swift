@@ -24,33 +24,40 @@ class SignUpViewController: UIViewController {
         
     }
     
-    var checked:Bool = false
+    var unchecked = true
     
     @IBAction func checkButton(_ sender: UIButton) {
-            if checked {
-                unCheckbox.setImage(UIImage(named: "Checkbox-Full-icon"), for: UIControl.State.selected)
+        
+            if unchecked {
+                unCheckbox.setImage(UIImage(named: "Checkbox-Full-icon"), for: UIControl.State.normal)
             } else {
                 unCheckbox.setImage(UIImage(named: "Checkbox-Empty-icon"), for: UIControl.State.normal)
             }
     }
     
     @IBAction func onSignup(_ sender: Any) {
-        let user = PFUser()
-        user.username = usernameField.text
-        user.password = passwordField.text
-        user.email = emailField.text
         
-        user.signUpInBackground { (success, error) in
-            if success {
-                self.performSegue(withIdentifier: "successSignupSegue", sender: nil)
-            } else {
-                print ("Error: \(error?.localizedDescription)")
-            }
-        }
+        self.performSegue(withIdentifier: "cancelSegue", sender: nil)
+        
+//        let user = PFUser()
+//        user.username = usernameField.text
+//        user.password = passwordField.text
+//        user.email = emailField.text
+//
+//        user.signUpInBackground { (success, error) in
+//            if success {
+//                self.performSegue(withIdentifier: "successSignupSegue", sender: nil)
+//            } else {
+//                print ("Error: \(error?.localizedDescription)")
+//            }
+//        }
     }
     
     @IBAction func cancelClicked(_ sender: Any) {
-        let story = UIStoryboard(name:"Main", bundle: nil)
+        
+        self.performSegue(withIdentifier: "cancelSegue", sender: nil)
+        
+//        let story = UIStoryboard(name:"Main", bundle: nil)
         // let controller = story.instantiateViewController(withIdentifier: "cancelSegue") as! (add the class name/storyboard id)
         // self.present(controller, animated: true, completion: nil)
         // hello
