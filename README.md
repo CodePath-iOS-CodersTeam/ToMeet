@@ -25,12 +25,12 @@ An app that allows users to connect and network with other professionals based o
 
 **Required Must-have Stories**
 
-[X] Users can create an account
-[X] Users can log in and log out
-[] Users can message
-[] Users can search
-[] Users can filter
-[] Users can edit information
+* [x] Users can create an account
+* [x] Users can log in and log out
+* [] Users can message
+* [] Users can search
+* [] Users can filter
+* [] Users can edit information
 
 **Optional Nice-to-have Stories**
 
