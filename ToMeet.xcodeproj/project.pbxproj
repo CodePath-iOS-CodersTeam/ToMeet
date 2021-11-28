@@ -16,6 +16,7 @@
 		695AB7D62744050100614091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695AB7D42744050100614091 /* LaunchScreen.storyboard */; };
 		695AB7E12744050200614091 /* ToMeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7E02744050200614091 /* ToMeetTests.swift */; };
 		695AB7EC2744050200614091 /* ToMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7EB2744050200614091 /* ToMeetUITests.swift */; };
+		695AB7FA2751F35300614091 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7F92751F35300614091 /* MessagingViewController.swift */; };
 		A1C7363D4D71F9E07FD54A8C /* Pods_ToMeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9231873980FB34DE0CF2AA34 /* Pods_ToMeetTests.framework */; };
 		B5F24B692748CD8200E0C707 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24B682748CD8200E0C707 /* SignUpViewController.swift */; };
 		C0EB8BC82749EACF0022BC87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB8BC72749EACF0022BC87 /* LoginViewController.swift */; };
@@ -60,6 +61,7 @@
 		695AB7E72744050200614091 /* ToMeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToMeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		695AB7EB2744050200614091 /* ToMeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToMeetUITests.swift; sourceTree = "<group>"; };
 		695AB7ED2744050200614091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695AB7F92751F35300614091 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
 		820363BEFE761EC330C2709A /* Pods-ToMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToMeet.debug.xcconfig"; path = "Target Support Files/Pods-ToMeet/Pods-ToMeet.debug.xcconfig"; sourceTree = "<group>"; };
 		9231873980FB34DE0CF2AA34 /* Pods_ToMeetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToMeetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F24B682748CD8200E0C707 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				695AB7D72744050100614091 /* Info.plist */,
 				C0EB8BC72749EACF0022BC87 /* LoginViewController.swift */,
 				C0EB8BC92749FA8E0022BC87 /* MessageBoxViewController.swift */,
+				695AB7F92751F35300614091 /* MessagingViewController.swift */,
 			);
 			path = ToMeet;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 			files = (
 				695AB7CE274404FC00614091 /* ViewController.swift in Sources */,
 				695AB7CA274404FC00614091 /* AppDelegate.swift in Sources */,
+				695AB7FA2751F35300614091 /* MessagingViewController.swift in Sources */,
 				C0EB8BCA2749FA8E0022BC87 /* MessageBoxViewController.swift in Sources */,
 				B5F24B692748CD8200E0C707 /* SignUpViewController.swift in Sources */,
 				C0EB8BC82749EACF0022BC87 /* LoginViewController.swift in Sources */,

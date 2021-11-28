@@ -8,6 +8,7 @@ target 'ToMeet' do
   # Pods for ToMeet
   pod "Parse"
   pod "AlamofireImage"  
+  pod "MessageKit"
 
   target 'ToMeetTests' do
     inherit! :search_paths
