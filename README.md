@@ -27,7 +27,7 @@ An app that allows users to connect and network with other professionals based o
 
 * [x] Users can create an account
 * [x] Users can log in and log out
-* [ ] Users can message
+* [x] Users can message
 * [ ] Users can search
 * [ ] Users can filter
 * [ ] Users can edit information
@@ -259,9 +259,9 @@ Here's a walkthrough of implemented user stories:
 
 ### User Stories
 
-* [ ] Message Box
-* [ ] Messaging
-* [ ] Message Request
+* [x] Message Box
+* [x] Messaging
+* [x] Message Request
 
 ### Video Walkthrough
 
