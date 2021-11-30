@@ -7,6 +7,7 @@
 
 import UIKit
 import Parse
+import AlamofireImage
 
 class SignUpViewController: UIViewController {
 
@@ -43,15 +44,15 @@ class SignUpViewController: UIViewController {
 //        user.username = usernameField.text
 //        user.password = passwordField.text
 //        user.email = emailField.text
-//
+
 //        user.signUpInBackground { (success, error) in
 //            if success {
-//                self.performSegue(withIdentifier: "successSignupSegue", sender: nil)
+//                self.performSegue(withIdentifier: "cancelSegue", sender: nil)
 //            } else {
 //                print ("Error: \(error?.localizedDescription)")
 //            }
 //        }
-    }
+//    }
     
     @IBAction func cancelClicked(_ sender: Any) {
         
@@ -62,8 +63,6 @@ class SignUpViewController: UIViewController {
         // self.present(controller, animated: true, completion: nil)
         // hello
     }
-    
-    
     
     /*
     // MARK: - Navigation
