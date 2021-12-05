@@ -6,16 +6,50 @@
 //
 
 import UIKit
+import Parse
+import MessageKit
 
-class MessageBoxViewController: UIViewController {
-
+class MessageBoxViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var messageBoxTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+        messageBoxTableView.register(UITableView.self, forCellReuseIdentifier: "MessageContentCell")
+        messageBoxTableView.dataSource = self
+        messageBoxTableView.delegate = self
     }
     
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MessageContentCell") as! MessageContentCell
+        cell.accessoryType = .disclosureIndicator
+        return cell
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        //shows messages
+        let vc = MessagingViewController()
+        vc.title = "Chat"
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
+    @IBAction func requestsButton(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "requestsSegue", sender: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
