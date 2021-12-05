@@ -29,7 +29,7 @@ An app that allows users to connect and network with other professionals based o
 * [x] Users can log in and log out
 * [x] Users can message
 * [x] Users can search
-* [] Users can filter
+* [ ] Users can filter
 * [ ] Users can edit information
 
 **Optional Nice-to-have Stories**
