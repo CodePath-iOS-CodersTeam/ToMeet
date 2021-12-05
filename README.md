@@ -28,8 +28,8 @@ An app that allows users to connect and network with other professionals based o
 * [x] Users can create an account
 * [x] Users can log in and log out
 * [x] Users can message
-* [ ] Users can search
-* [ ] Users can filter
+* [x] Users can search
+* [] Users can filter
 * [ ] Users can edit information
 
 **Optional Nice-to-have Stories**
@@ -273,15 +273,15 @@ Here's a walkthrough of implemented user stories:
 
 ### User Stories
 
-* [ ] Profile
-* [ ] Accept, Reject, & Request Feature
-* [ ] Search Feature
+* [x] Profile
+* [x] Accept, Reject, & Request Feature
+* [x] Search Feature
 
 ### Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/tcas0Vupv4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Milestone 4
 

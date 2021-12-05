@@ -18,6 +18,8 @@
 		695AB7EC2744050200614091 /* ToMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7EB2744050200614091 /* ToMeetUITests.swift */; };
 		695AB7FA2751F35300614091 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB7F92751F35300614091 /* MessagingViewController.swift */; };
 		A1C7363D4D71F9E07FD54A8C /* Pods_ToMeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9231873980FB34DE0CF2AA34 /* Pods_ToMeetTests.framework */; };
+		B5156B8C2755CCEA00B02CD6 /* MessageContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5156B8B2755CCEA00B02CD6 /* MessageContentCell.swift */; };
+		B5B55755275C1EC000FFF71D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B55754275C1EC000FFF71D /* SearchViewController.swift */; };
 		B5F24B692748CD8200E0C707 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24B682748CD8200E0C707 /* SignUpViewController.swift */; };
 		C0EB8BC82749EACF0022BC87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB8BC72749EACF0022BC87 /* LoginViewController.swift */; };
 		C0EB8BCA2749FA8E0022BC87 /* MessageBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB8BC92749FA8E0022BC87 /* MessageBoxViewController.swift */; };
@@ -64,6 +66,8 @@
 		695AB7F92751F35300614091 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
 		820363BEFE761EC330C2709A /* Pods-ToMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToMeet.debug.xcconfig"; path = "Target Support Files/Pods-ToMeet/Pods-ToMeet.debug.xcconfig"; sourceTree = "<group>"; };
 		9231873980FB34DE0CF2AA34 /* Pods_ToMeetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToMeetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5156B8B2755CCEA00B02CD6 /* MessageContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageContentCell.swift; sourceTree = "<group>"; };
+		B5B55754275C1EC000FFF71D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B5F24B682748CD8200E0C707 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BFBC79D09A2C8F1470AE7778 /* Pods_ToMeet_ToMeetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToMeet_ToMeetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EB8BC72749EACF0022BC87 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +151,9 @@
 				B5F24B682748CD8200E0C707 /* SignUpViewController.swift */,
 				C0EB8BC72749EACF0022BC87 /* LoginViewController.swift */,
 				C0EB8BC92749FA8E0022BC87 /* MessageBoxViewController.swift */,
+				B5156B8B2755CCEA00B02CD6 /* MessageContentCell.swift */,
 				695AB7F92751F35300614091 /* MessagingViewController.swift */,
+				B5B55754275C1EC000FFF71D /* SearchViewController.swift */,
 			);
 			path = ToMeet;
 			sourceTree = "<group>";
@@ -421,6 +427,8 @@
 				695AB7CE274404FC00614091 /* ViewController.swift in Sources */,
 				695AB7CA274404FC00614091 /* AppDelegate.swift in Sources */,
 				695AB7FA2751F35300614091 /* MessagingViewController.swift in Sources */,
+				B5B55755275C1EC000FFF71D /* SearchViewController.swift in Sources */,
+				B5156B8C2755CCEA00B02CD6 /* MessageContentCell.swift in Sources */,
 				C0EB8BCA2749FA8E0022BC87 /* MessageBoxViewController.swift in Sources */,
 				B5F24B692748CD8200E0C707 /* SignUpViewController.swift in Sources */,
 				C0EB8BC82749EACF0022BC87 /* LoginViewController.swift in Sources */,
